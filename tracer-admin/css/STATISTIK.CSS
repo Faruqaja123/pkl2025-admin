@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Styling Navbar */
+.navbar {
+background-color: #f5f5f5;
+padding: 15px 100px;
+border-bottom: 1px solid #ddd;
+position: sticky;
+top: 0;
+z-index: 1000;
+display: flex;
+justify-content: flex-end;
+gap: 20px;
+}
+
+/* Logo Container */
+.logo-container {
+display: flex;
+align-items: center;
+}
+
+.logo {
+width: -10px;
+height: 60px;
+object-fit: cover;
+object-position: center ;
+margin-top: 0%;
+margin-right: 500px;
+margin-left: -100px;
+}
+
+/* Link Navigation */
+.nav-links {
+display: flex;
+list-style: none;
+gap: 30px; /* Jarak antar item menu */
+}
+
+.nav-links a {
+text-decoration: none;
+color: #000;
+margin: 0 10px;
+font-weight: lighter;
+font-size: 16px;
+transition: color 0.3s;
+}
+
+.nav-links a:hover{
+color: #007BFF;
+}
+/* Logout Button */
+.logout {
+background-color: #8A8787;
+padding: 10px 15px;
+border-radius: 10px;
+color: #000;
+font-weight: lighter;
+}
+
+.logout:hover {
+background-color: #8A8787;
+padding: 10px 15px; 
+border-radius: 10px;
+}
